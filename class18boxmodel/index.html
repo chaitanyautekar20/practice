@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            color: yellow;
+            /* padding comes after content and has the background color */
+            padding: 10px; 
+            /* It comes outside  */
+            margin: 5px;
+            border: 2px solid blue;
+            width:200px;
+            heigth:100px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color:red;
+            padding: 10px; 
+            /* It comes outside  */
+            margin: 5px;
+            border: 2px solid blue;
+            width:200px;
+            heigth:100px;
+            box-sizing: border-box;
+        }
+        /* margine collaps the maximum margin is considre  */
+    </style>
+</head>
+<body>
+<div class="box box1">
+    I am a box
+</div>
+<div class="box box2">
+    hello
+</div>
+</body>
+</html>

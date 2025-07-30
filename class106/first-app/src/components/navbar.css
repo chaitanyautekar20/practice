@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: aqua;
+}
+
+nav,ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    gap: 30px;
+}
+
+nav{
+    background-color: pink;
+    padding: 23px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiColor website</title>
+    <style>
+        :root{
+            --primarycolor: pink;
+            --textcolor:white;
+            --seconadercolor:rgb(240, 18, 240);
+        }
+        body{
+            background-color: var(--seconadercolor) ;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Courier New', Courier, monospace;
+        }
+        nav{
+            background-color:var(--primarycolor);
+            padding: 12px 0px;
+        }
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 24px;
+            font-weight: bolder;
+            color:var(--textcolor) ;
+        }
+        ul li a{
+            color: var(--textcolor);
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Contact us</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">About us</a></li>
+                <li><a href="/">About us</a></li>
+                <li>Home</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,5 @@
+css 2d transform
+this property allows the content to be restructed in ways like translate , rotate,scale,etc.as it is 2d thefore the content is trnasformed into X and Y dimentions.
+
+3d acts in 3 dimentions
+x,y,z directions.

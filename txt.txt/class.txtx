@@ -1,0 +1,155 @@
+client -> browser ->server
+response should be 200 ok response
+broser will send the request to the server as we interact with the page on the broser
+
+their are some error like 404 or 500
+
+
+what is backend 
+
+the backend is the server side of the website.
+it sore and arranges data , and also makes sure everthing on the client side works fine.
+
+it is part of the website the you cannot see and interact with .
+it is the portion of sotware that does not come in direct contact with thw users.
+
+frontend
+html 
+css 
+javascrpit helps in making the page dynamic
+backend
+
+git and git hub
+
+html tags 
+pair tag and self colsing tag
+html page title helps in seo 
+lorem to fill the place holder or dummy paragraph
+
+target="_blank" to open in the new tab
+we need to use list not paragraph tag for the bookmnarks
+
+
+core web vitals
+video 6
+seo search engine optimisation
+contensts matter for the seo and core web vitals
+
+are cls should be less 
+cumilative layout shift
+how much our page shift while loading
+
+
+what is lcp
+larger contentful paints
+reports the render time of larger image and text block
+how much time it is taking to load the bigger image on the page 2.5 secis best
+
+web site web.dev
+
+what is fid 
+how much time it takes to procees the input 
+100millsecons is best
+
+light house help us to analyze the web site and improving the web site
+
+we sould set the width and height during in the html so that the space is reserved and thus the browser will take less time to load the page and the page will not shift this is know as cumilative alyout shift 
+
+inline and block element 
+Inline element do not start on a new line and only take up as much width as necessary
+
+Block-level element are those that start on new line and take up the
+ entire width of their container by default.They essentially claim horizintal space for themselves,pushing any content that come after them to a new line
+
+
+ Block Elements (Most Commonly Used First)
+
+<div>: A generic container for flow content.
+<p>: Paragraph.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Headings.
+<ul>: Unordered list.
+<ol>: Ordered list.
+<li>: List item.
+<form>: A section containing form controls.
+<table>: Table.
+<section>: A standalone section of a document.
+<header>: A container for introductory content or a set of navigational links.
+<footer>: Footer of a section or page.
+<nav>: A section of a page that contains navigation links.
+<article>: A self-contained composition in a document.
+<aside>: A section of a page that contains information indirectly related to the main content.
+<main>: The main content of a document.
+<fieldset>: A set of form controls grouped under a common name.
+<blockquote>: A block of text that is a quotation from another source.
+<pre>: Preformatted text.
+<canvas>: A container used to draw graphics via JavaScript.
+<dl>: Description list.
+<dt>: Term in a description list.
+<dd>: Description in a description list.
+<figure>: Any content that is referenced from the main content.
+<figcaption>: A caption for a <figure> element.
+<address>: Contact information for the author or owner of the document.
+<hr>: A thematic break or a horizontal rule.
+<tfoot>: Footer of a table.
+
+
+
+Inline Elements (Most Commonly Used First)
+<a>: Anchor or hyperlink.
+<img>: Image.
+<span>: Generic inline container.
+<input>: Input field.
+<label>: Label for a form element.
+<strong>: Strong emphasis.
+<em>: Emphasized text.
+<br>: Line break.
+<code>: Code snippet.
+<b>: Bold text.
+<i>: Italic text.
+<u>: Underlined text.
+<small>: Smaller text.
+<sub>: Subscript.
+<sup>: Superscript.
+<mark>: Marked or highlighted text.
+<q>: Short inline quotation.
+<cite>: Citation.
+<kbd>: Keyboard input.
+<samp>: Sample output.
+<var>: Variable in a mathematical expression or programming context.
+<time>: Time.
+<abbr>: Abbreviation.
+<data>: Machine-readable translation of content.
+<acronym>: Acronym (Not supported in HTML5).
+
+
+what is an ID 
+
+an id is an attribute , aunique identifire assigned to only one html element within a page . It is oftent used for unique styling and JavaScript manipulations
+
+and class can be given to multimle
+
+the class attribute lets you give the same name to multimle html elements.
+that way you can easily change thjeir look or behavior all at once .
+class are not unique and can be assigned to multimple Elements. they are generaly used for applying the same styles or behaviors to a group of elements.
+
+id helps in the linking of the page 
+if we inspect and the copy the id and # tag then it will scroll and show that page only or that content only
+
+
+svg is used in the creation of the high level images which can be used further we can create the svg file and use the image
+
+
+iframes 
+use to emberd the website
+
+semantic tag for seo
+using html semantic tags can greatly benefits both your website seo and the maintainablity of your code . they offer a way to structure your html in a meaningful manner, making your website more accessible and easre to understand
+seo 
+
+
+css 
+inline rarely used
+internal used for bootstrap mostly 
+extenal used for big prodution web site
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* element selectors */
+        div{
+            background-color: red;
+        }
+        /* class yello */
+        .yellow{
+            background-color: yellow;
+        }
+        /* id slector */
+        #green{
+            color: green;
+        }
+        /* child selector */
+        div>p{
+            background-color: magenta;
+        }
+        /* decendant selector */
+        div p{
+            color: aqua;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>
+
+            I am selectors
+        </p>
+        <p>
+            second
+        </p>
+    </div>
+    <div class="yellow">
+        i am a  div
+    </div>
+    <div>
+        hello
+    </div>
+    <div id="green">
+        goood morning
+    </div>
+    <div>
+        <p>
+            hello
+        </p>
+    </div>
+
+    <div>
+        <article>
+            <p>
+                hello
+            </p>
+        </article>
+    </div>
+
+    <a href="https://google.com">google</a>
+    <a href="https://facebook.com">facebook</a>
+    
+</body>
+</html>

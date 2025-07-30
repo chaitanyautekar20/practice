@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .box{
+            width:30vw;
+            height: 10vh;
+            border: 2px solid black;
+            /* overflow: auto; */
+            /* overflow: scroll;  */
+            /* do not fall text down */
+            white-space: nowrap; 
+            /* text-overflow: ellipsis; */
+            /* text-overflow: ellipsis; */
+            overflow-x: hidden;
+            overflow-y: scroll;
+
+        }
+    </style>
+</head>
+<body>
+<!-- css box model defines how elements are rendered and how their dimentions are calculated . It descrbese the structure of the element as a rectangular box that has content, padding ,a border and a margin -->
+ <!-- if we have content more the we can use css overflow property for managing the content -->
+    <div class="box">
+        I am a good boy and I love to write Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quis, in delectus maiores perspiciatis enim incidunt quas earum sunt voluptatum veritatis adipisci dolorum blanditiis sequi doloremque quod? Minima eum, corrupti molestias, iusto eaque, numquam modi veritatis at dolores nisi labore iure expedita et dicta culpa?
+    </div>
+
+</body>
+</html>

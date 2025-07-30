@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on css selector</title>
+    <style>
+        .box:first-child{
+            background-color: aqua;
+        }
+        .box::first-line{
+            color: yellow;
+        }
+        .boxes *{
+            color: rgb(255, 85, 0);
+            border: 2px solid black;
+        }
+        /* attribute selector */
+      p,a,.box,  [data-color="primary"]{
+            padding-top: 45px;
+        }
+        .box:nth-child(even){
+            color: pink;
+            background-color: aqua;
+        }
+        .box:nth-last-child(1){
+            background-color: mediumseagreen;
+        }
+        .boxes::before{
+            content: "chaitanya is good";
+        }
+        .boxes::after{
+            content: "chaitanya is good";
+            color: brown;
+        }
+        ::selection{
+            color: rgb(206, 57, 174);
+            background-color: black;
+        }
+        .box::first-letter{
+            color: peru;
+            font-size: 45px;
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a box
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nihil, libero, nulla earum deleniti, non laboriosam natus mollitia sint iste asperiores adipisci ex.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias soluta qui harum vitae adipisci optio reiciendis iste distinctio, tempore itaque veniam molestiae quasi eligendi velit. Amet magni non explicabo enim labore saepe ex ea, quas exercitationem vel corporis hic quos quod aliquam blanditiis, nostrum laborum optio qui illum repudiandae omnis? Ipsam dicta vel quos voluptates nobis eligendi eaque tempore asperiores, soluta, tempora blanditiis non fuga! Quibusdam, exercitationem consequuntur alias nemo accusantium laborum atque a voluptates delectus corrupti voluptate error rerum aliquid consequatur non nam numquam, quod culpa? Fugiat ratione, debitis ipsam sint rem hic quibusdam aut dolorem, molestias, nemo illum mollitia possimus! Id sed inventore debitis illo molestiae in accusantium cumque, repudiandae praesentium doloremque, at iure veritatis ea. Accusamus excepturi tempora minus explicabo eum officiis fugiat sequi doloremque at, voluptatum architecto reiciendis nam distinctio laborum! Voluptas neque asperiores, deserunt consectetur modi unde facere? Dolore magni corporis sequi, sapiente enim iure debitis rerum quibusdam harum, nostrum excepturi ratione obcaecati maiores quaerat, quae in a quas. Vitae vel reprehenderit labore saepe. Ex vel autem ea nobis omnis dolores rerum, laborum earum deleniti repellat cumque, laudantium minima provident perspiciatis voluptatem adipisci totam ab eos velit laboriosam possimus explicabo enim esse. Exercitationem voluptatibus atque et iusto, rerum perspiciatis harum beatae temporibus ex maxime ea deleniti illo, amet voluptas excepturi hic expedita voluptatem? Nobis veniam dolor, a, quam molestias ex necessitatibus ipsam similique facere rem, assumenda laborum commodi. Sapiente sunt, tenetur nihil at rerum alias deserunt ea ad nemo! Expedita hic id eius eligendi laudantium iure nam, minus voluptatibus aliquid impedit obcaecati cupiditate repellat aliquam reiciendis optio placeat odio dolor, blanditiis officia iste perferendis. Eius odit fugiat sapiente nulla placeat quam magni debitis eum. Dolore, ut dolores quaerat alias veritatis mollitia, modi harum fugiat cumque itaque in optio debitis! Quod a exercitationem ipsum sapiente vel accusamus quisquam debitis laudantium, dolores quasi ad dignissimos natus rerum nisi porro molestias veritatis non eos. Fugit quod cupiditate molestiae nisi deserunt ipsum magni culpa exercitationem provident impedit iusto assumenda est debitis, nemo in aspernatur quasi cumque magnam asperiores illum earum. Ex doloribus aliquam perferendis.
+        </div>
+        <div class="box">I am a box
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error itaque cumque pariatur saepe! Tempore quam quod quis quo non dolor officiis eos sapiente aliquid necessitatibus nobis animi reiciendis tenetur vitae, dolorum molestias porro atque id officia exercitationem. Aliquam natus quaerat temporibus officiis voluptate nisi unde, error nam quo cum. Beatae exercitationem ipsum voluptate eveniet. Officia eaque alias repellat nesciunt doloribus iste sint omnis ipsam, tempora eius, consectetur officiis libero culpa assumenda voluptate delectus sit iusto vero accusamus minima quod. Eius accusantium, veniam quia nesciunt ipsa nostrum commodi obcaecati eos fugiat reiciendis doloremque enim magni corrupti, repellat cum eaque repudiandae maiores.
+        </div>
+        <div class="box">I am a box</div>
+        <input type="text" placeholder="your name" name="name" id="name">
+    </div>
+</body>
+</html>

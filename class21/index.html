@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        h1 {
+            color: aqua;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        h3.cred {
+            color: red;
+        }
+
+        .cpurple {
+            color: purple;
+        }
+
+        .green {
+            color: green !important;
+        }
+
+        /* attribute selector */
+        [data-x=a] {
+            background-color: red;
+        }
+
+        /* universal selector */
+        /* *{
+            background-color: aqua;
+        } */
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="color: pink;" class="yellow cred cpurple">
+            Css Specificity
+        </h1>
+        <h1 class="yellow cred cpurple" data-x="a">
+            hello good morning
+        </h1>
+        <P>hello every one</P>
+        <h2 style="color: maroon;" class="green">
+            important
+        </h2>
+        <h3 class="cred cpurple">combine specificity</h3>
+    </div>
+    <!-- css has cascad alorithm this helps in analysis of whic property will be applied 
+     1 position and order of appearance 
+     2 specficity on algorith that determines  which css selector has the strongest match
+     3 origin
+     4 importance-->
+</body>
+
+</html>

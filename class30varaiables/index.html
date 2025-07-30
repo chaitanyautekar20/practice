@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variables</title>
+    <style>
+        :root{
+              /* root has global variable */
+            --color: blue;
+            --seccolor:rgb(190, 190, 234);
+            --defpad:23px;
+            --defop:0.2;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+            opacity: var(--defop);
+        }
+
+        ul li:first-child{
+            --color:pink;
+            background-color: var(--color,blue);
+            /* if variable is not found thrn the fallback value is also give like blue in this case */
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit explicabo quos dolore laudantium quo recusandae consectetur, culpa vitae iusto eligendi delectus porro sapiente aliquid dignissimos sunt nesciunt asperiores alias necessitatibus amet quasi quidem. Nihil minima nemo fugit non totam molestias ullam nostrum laudantium. Voluptate, non.
+    </div>
+</body>
+</html>

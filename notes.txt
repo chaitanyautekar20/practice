@@ -1,0 +1,15 @@
+This will install it as the dev dependency which will not create ovehead
+npm install -D tailwindcss@3
+
+This will give the congif file which we can use if we want to do any customization
+npx tailwindcss init
+
+create input fill in src folder
+which has 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+their is concept of breakpoint 
+and aplide deractives

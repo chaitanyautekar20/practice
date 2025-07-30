@@ -1,0 +1,19 @@
+{
+  "name": "chaitanya",
+  "version": "1.0.0",
+  "description": "Its an ammazing package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chaitanya",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^19.2.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
